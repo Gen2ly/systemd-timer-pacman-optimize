@@ -2,5 +2,6 @@
 Description=pacman optimize database
 
 [Service]
+Type=oneshot
 ExecStart=/usr/bin/pacman-optimize
 
